@@ -9,7 +9,7 @@ from twitter_credentials import *
 
 def edges_process(id_var):  # Iterate through all files and find edges, id_var = id number to iterate up to
 
-    report = open('edges_report.txt', 'a+')
+    report = open('reports/edges_report.txt', 'a+')
     report.write(str(datetime.datetime.now()) + '   -   edges_process started\n')
     count = 0
 
@@ -59,7 +59,7 @@ def edges_process(id_var):  # Iterate through all files and find edges, id_var =
 
 def nodes_process(id_var, file_name):  # id_var = id number to iterate up to
 
-    report = open('nodes_report.txt', 'a+')
+    report = open('reports/nodes_report.txt', 'a+')
     report.write(str(datetime.datetime.now()) + '   -   nodes_process started\n')
     count = 0
 
@@ -100,7 +100,7 @@ def scraper(start_id, end_id, file_name):
 
     total_count = 0
 
-    report = open('scraper_report.txt', 'a+')
+    report = open('reports/scraper_report.txt', 'a+')
     report.write(str(datetime.datetime.now()) + '   -   scraper started\n')
     report.write('\n    start_id: ' + str(start_id) + '    end_id: ' + str(end_id) + '\n\n')
 
