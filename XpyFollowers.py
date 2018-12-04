@@ -120,8 +120,6 @@ def scraper(start_id, end_id, file_name):
 
         entry_id = row["id"]
 
-        if index == 0:
-            continue
         if entry_id < start_id:
             continue
         if entry_id > end_id:
