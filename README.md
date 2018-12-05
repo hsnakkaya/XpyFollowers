@@ -2,18 +2,16 @@
 Twitter follower user_id scraper for Gephi
 
 -Grabs Twitter handles from an excel file
-
 -Scrapes user_ids from all those handles and stores in seperate csv files
-
 -Compares those csv files with each other and finds shared follower counts
-
 -Exports nodes.csv and edges.csv files for Gephi (https://gephi.org/)
 
 instructions:
+
 -get you API tokens/keys from https://apps.twitter.com/
 -put them in twitter_credentials.py
 -fill up your excel table with twitter handles you want to scrape (maintaining formatting)
-- use scraper(start_id, end_id, 'twitter_list')
+-use scraper(start_id, end_id, 'twitter_list')
 
 function to scrape that list from twitter
 
