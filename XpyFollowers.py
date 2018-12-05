@@ -137,6 +137,7 @@ def scraper(start_id, end_id, file_name):
             report.write(str(datetime.datetime.now()) +
                          '   -   creating ' +
                          str(entry_id) + '.csv\n')
+            print('-   creating ', str(entry_id), '.csv\n')
 
             count = 0
 
@@ -161,7 +162,7 @@ def scraper(start_id, end_id, file_name):
                                  ' with ' + str(count) + ' entries\n')
                     break
                 csv_writer.writerow([user])
-                print(user)
+                print(count, ' user ids scraped from @', str(handle))
                 count = count + 1
                 total_count = total_count + 1
                 file.flush()
