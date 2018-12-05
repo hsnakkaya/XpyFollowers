@@ -10,6 +10,7 @@ instructions:
 
 -get you API tokens/keys from https://apps.twitter.com/
 -put them in twitter_credentials.py
+
 -fill up your excel table with twitter handles you want to scrape (maintaining formatting)
 
 -use scraper(start_id, end_id, 'twitter_list')
