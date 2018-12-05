@@ -28,5 +28,6 @@ edges_process(id) and nodes_process(id, 'twitter_list')
 functions to cross reference all the profiles and find shared followers and create the nodes.csv and edges.csv files for Gephi 
 
 -id = how many ids you want to check for shared followers
+
 -twitter_list = name of the xlsx file you used before
     
