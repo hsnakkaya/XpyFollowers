@@ -1,4 +1,6 @@
 # XpyFollowers
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
 Twitter follower user_id scraper for Gephi
 
 -Grabs Twitter handles from an excel file
